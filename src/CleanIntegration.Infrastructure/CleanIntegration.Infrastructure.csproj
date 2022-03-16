@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="OracleCRM\ExternalAPI\" />
+    <Folder Include="OracleCRM\Repository\" />
+    <Folder Include="OracleCRM\Cache\" />
+    <Folder Include="Procon\ExternalAPI\" />
+    <Folder Include="Procon\Repository\" />
+    <Folder Include="Procon\Cache\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanIntegration.Core\CleanIntegration.Core.csproj" />
+  </ItemGroup>
+
+</Project>
